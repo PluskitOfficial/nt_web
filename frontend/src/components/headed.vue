@@ -3,7 +3,7 @@
         <div class="w-auto clearfix">
             <div class="clearfix">
                 <img @click="clickHome()" src="@/assets/img/logo.png" class="fl logo">
-                <el-tooltip class="item" effect="dark" content="Update time: 00:00 Beijing time" placement="right-start">
+                <el-tooltip class="item" effect="dark" content="Update time: 4:00pm UTC" placement="right-start">
                     <img src="@/assets/img/tips.png" class="tips fl">
                 </el-tooltip>
             </div>
