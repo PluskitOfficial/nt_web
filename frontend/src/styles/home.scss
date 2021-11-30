@@ -1,0 +1,329 @@
+@charset "utf-8";
+.home {
+    background: #fdf7f3;
+    .back {
+        font-size: 0.2rem;
+        font-weight: 500;
+        color: #141634;
+        line-height: 0.2rem;
+        margin-bottom: 0.2rem;
+        margin-top: 0.1rem;
+        cursor: pointer;
+        img {
+            height: 0.2rem;
+            margin-right: 0.06rem;
+        }
+    }
+    .head {
+        background: #FFFFFF;
+        .tips {
+            width: 0.22rem;
+            height: 0.22rem;
+            position: relative;
+            left: 0.1rem;
+            top: 0.12rem;
+        }
+        .logo {
+            width: 1.52rem;
+            margin-top: 0.12rem;
+            margin-bottom: 0.12rem;
+            cursor: pointer;
+        }
+        .search-div {
+            position: relative;
+        }
+        .search-input {
+            width: 10rem;
+            position: relative;
+            left: -0.01rem;
+            .el-input__inner {
+                border-radius: 0;
+            }
+        }
+        .search-button {
+            height: 0.50rem;
+            background: #F6843C;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+            width: 1.3rem;
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+            &:hover {
+                opacity: 0.95;
+            }
+        }
+        .el-input__inner {
+            height: 0.5rem;
+            line-height: 0.5rem;
+            border: 1px solid #F6843C;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            font-size: 0.16rem;
+        }
+        .selects {
+            .el-input__inner {
+                border-radius: 0;
+            }
+        }
+        .el-select:hover .el-input__inner {
+            border-color: #fdb181;
+        }
+        .el-select .el-input.is-focus .el-input__inner {
+            border-color: #fdb181;
+        }
+        .el-select .el-input__inner:focus {
+            border-color: #fdb181;
+        }
+    }
+    .content {
+        padding-bottom: 0.7rem;
+        background: #FFFFFF;
+        border-radius: 0 0 3rem 0;
+        .top {
+            .statistics-list-details {
+                font-size: 0.16rem;
+                font-weight: 600;
+                color: #141634;
+                .list {
+                    >div {
+                        height: 1.08rem;
+                        background: #fdf7f3;
+                    }
+                }
+                .statistics-title {
+                    height: 0.24rem;
+                    font-size: 0.3rem;
+                    font-weight: bold;
+                    color: #F6843C;
+                    padding-left: 0.3rem;
+                    margin-top: 0.14rem;
+                    position: relative;
+                    &:after {
+                        background: url("../assets/img/icon-9.png") no-repeat;
+                        background-size: 100% 100%;
+                        width: 0.42rem;
+                        height: 0.42rem;
+                        position: absolute;
+                        right: 0.4rem;
+                        top: -0.08rem;
+                    }
+                    img {
+                        margin-right: 0.4rem;
+                        width: 0.42rem;
+                    }
+                }
+                span {
+                    display: inline-block;
+                    margin-top: 0.2rem;
+                    padding-left: 0.3rem;
+                }
+                .statistics-list-top {
+                    margin-bottom: 0.2rem;
+                    > div {
+                        &:nth-child(1) {
+                            border-bottom-right-radius: 0.6rem;
+                            margin-right: 0.3rem;
+                            width: 7.86rem;
+                        }
+                        &:nth-child(2) {
+                            border-bottom-left-radius: 0.6rem;
+                            width: 5rem;
+                        }
+                    }
+                }
+                .statistics-list-bottom {
+                    > div {
+                        margin-right: 0.3rem;
+                        width: 4.18rem;
+                        &:last-child {
+                            margin-right: 0rem;
+                            border-top-left-radius: 0.6rem;
+                        }
+                        &:nth-child(1) {
+                            border-top-right-radius: 0.6rem;
+                        }
+                        &:nth-child(2) {
+                            border-top-left-radius: 0.6rem;
+                            border-top-right-radius: 0.6rem;
+                        }
+                    }
+                }
+            }
+            .statistics-list {
+                > div {
+                    position: relative;
+                    width: 4.24rem;
+                    height: 3.4rem;
+                    float: left;
+                    margin-left: 0.21rem;
+                    z-index: 1;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+                .sevenDays {
+                    &:after {
+                        content: "New In 7 Days";
+                        position: absolute;
+                        top: 0.2rem;
+                        left: 0.2rem;
+                        color: #000;
+                        font-size: 0.18rem;
+                        font-weight: bolder;
+                    }
+                }
+                .distributionData {
+                    &:after {
+                        content: "Allocated";
+                        position: absolute;
+                        top: 0.2rem;
+                        left: 0.2rem;
+                        color: #000;
+                        font-size: 0.18rem;
+                        font-weight: bolder;
+                    }
+                }
+                .distribution {
+                    &:after {
+                        content: "Distribution Region";
+                        position: absolute;
+                        top: 0.2rem;
+                        left: 0.2rem;
+                        color: #000;
+                        font-size: 0.18rem;
+                        font-weight: bolder;
+                    }
+                }
+            }
+            .notary-list {
+                > div {
+                    position: relative;
+                    width: 6.43rem;
+                    height: 3.4rem;
+                    float: left;
+                    margin-left: 0.3rem;
+                    z-index: 1;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+                .notaryStart {
+                    width: 100%;
+                    margin: 0;
+                    height: auto;
+                    //padding-bottom: 0.1rem;
+                }
+                &.hig {
+                    > div {
+                       height: 6.9rem;
+                    }
+                }
+                .notaryDistribution {
+                    &:after {
+                        content: "Public Distribution Statistics";
+                        position: absolute;
+                        top: 0.2rem;
+                        left: 0.2rem;
+                        color: #000;
+                        font-size: 0.18rem;
+                        font-weight: bolder;
+                    }
+
+                    font-size: 0.16rem;
+                    font-weight: 600;
+                    color: #141634;
+                    span {
+                        color: #F6843C;
+                    }
+                    .notary-title {
+                        padding-top: 0.9rem;
+                        padding-left: 0.2rem;
+                        line-height: 0.22rem;
+                        padding-bottom: 0.3rem;
+                        height: 0.44rem;
+                    }
+                    ul {
+                        li {
+                            width: 50%;
+                            p {
+                                height: 0.44rem;
+                                line-height: 0.22rem;
+                                padding-left: 0.2rem;
+                                padding-bottom: 0.3rem;
+                            }
+                        }
+                    }
+                }
+                .notarySevenDays {
+                    &:after {
+                        content: "Efficiency";
+                        position: absolute;
+                        top: 0.2rem;
+                        left: 0.2rem;
+                        color: #000;
+                        font-size: 0.18rem;
+                        font-weight: bolder;
+                    }
+                }
+            }
+            .userinfo {
+                > div {
+                    position: relative;
+                    width: 100%;
+                    height: 3.4rem;
+                    float: left;
+                    z-index: 1;
+                }
+            }
+            .message {
+                > div {
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                    float: left;
+                    z-index: 1;
+                    padding-bottom: 0.2rem;
+                }
+            }
+        }
+        .user-apply-list {
+            margin-top: 0.32rem;
+            position: relative;
+            .border-box {
+                background-color: #FCEFE6;
+            }
+        }
+        .user-detail {
+            .border-box {
+              background-color: #ffffff;
+            }
+        }
+
+    }
+    .content2 {
+        background: #fdf7f3;
+    }
+    .clear-radius {
+        border-radius: initial;
+    }
+}
+.border-name {
+    position: absolute;
+    font-size: 0.16rem;
+    font-weight: 600;
+    color: #141634;
+    line-height: 16px;
+    padding: 0.2rem;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.bg-c-w {
+    background: #fff;
+}
+
+
+
+

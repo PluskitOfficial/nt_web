@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*TABLE*/
+.el-table thead {
+    height: 0.5rem !important;
+}
+.el-table .el-table__cell {
+    padding: 0;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+    color: #F6843C;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #F6843C;
+    color: #FFFFFF;
+}
+.paginationALL2 .el-pagination.is-background .el-pager li:not(.disabled):hover {
+    color: #fff;
+    background-color: #F6843C;;
+}
+.paginationALL2 .el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #F6843C;;
+    color: #fff;
+}
+.paginationALL2 .el-pagination.is-background .el-pager li {
+    background-color: #FDF7F3;;
+}
+.user-apply-list .el-table tr:hover > td {
+    background-color: #FDF7F3 !important;
+}
+
+.el-select-dropdown__item.selected {
+    color: #F6843C;
+}
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+    background-color: #fdf7f3;
+}
+.el-select-dropdown {
+    border: 1px solid #141634;
+}
+.el-popper[x-placement^="bottom"] .popper__arrow {
+    border-bottom-color: #141634;
+}
+.el-select .el-input .el-select__caret {
+    color: #848599;
+    font-weight: bolder;
+}
+.table-bg .el-table th.el-table__cell {
+    background-color: #FDF7F3;
+}
+.table-bg .fc {
+    color: #F6843C;
+}
+.table-bg .fb {
+    color: #42A8FF;
+}
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf {
+    border: none;
+}
+.el-table::before {
+    width: 0;
+}
+.bg-bs {
+    background-color: #fcefe6;
+}
+.bg-bs .el-table tr {
+    background-color: #fcefe6;
+}
+.bg-bs .fc {
+    color: #F6843C;
+}
+.notaryStart {
+    background-color: #f6f6f7;
+}
+.notaryStart .el-table tr {
+    background-color: #f6f6f7;
+}
+.notaryStart .table-bg .el-table th.el-table__cell {
+    background-color: #ffffff;
+}
+
+.nowrap {
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.paginationALL {
+    position: absolute;
+    width: 100%;
+    bottom: 0.1rem;
+}
+.blue {
+    color: #42A8FF;
+}
+.el-popover {
+    color: #42A8FF;
+}
+.icon {
+    width: 0.16rem;
+    margin-right: 0.04rem;
+    position: relative;
+    top: -0.02rem;
+}
+.icon2 {
+    width: 0.16rem;
+    margin-right: 0.04rem;
+}
+
+
