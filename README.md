@@ -1,1 +1,3 @@
-# nt_web
+## License
+
+[MIT](LICENSE) 
